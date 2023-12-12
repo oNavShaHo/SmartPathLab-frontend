@@ -1,12 +1,5 @@
 import React from 'react'
-import email from '../assests/email.svg'
-import office from '../assests/office.svg'
-import social from '../assests/Frame 21 (2).svg'
-import phone from '../assests/call.svg'
-import facebook from '../assests/Facebook.svg'
-import twitter from '../assests/Twitter.svg'
-import linkedin from '../assests/LinkedIn.svg'
-import instagram from '../assests/Instagram.svg'
+
 import Social from './social'
 function ContactUs() {
   return (

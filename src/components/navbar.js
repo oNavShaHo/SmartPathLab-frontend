@@ -1,8 +1,9 @@
 import React from 'react'
-import logo from '../assests/logo.svg'
+import logo from '../assests/logo.png'
 import '../App.css'
 import { BrowserRouter as Router,  Link } from 'react-router-dom';
 function navbar() {
+  console.log(Router)
   return (
     <div className='flex justify-around  items-center h-[4rem]'>
       <img className='h-[2rem]' src={logo} alt='logo'/>

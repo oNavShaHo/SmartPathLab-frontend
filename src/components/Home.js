@@ -3,6 +3,7 @@ import '../App.css'
 import h1 from '../assests/h11.png'
 import { BrowserRouter as Router,  Link } from 'react-router-dom';
 function Home() {
+  console.log(Router)
   return (
     <div className=' mt-10 md:mt-[8rem] 
     lg:mt-[10rem] '>
