@@ -1,11 +1,12 @@
 import React from 'react'
-import logo from '../assests/logo.svg'
+import logo from '../assests/logo.png'
 import '../App.css'
 import { BrowserRouter as Router,  Link } from 'react-router-dom';
 function navbar() {
+  console.log(Router);
   return (
     <div className='flex justify-around  items-center h-[4rem]'>
-      <img className='h-[2rem]' src={logo} alt='logo'/>
+      <img className='h-[4rem] mt-6' src={logo} alt='logo'/>
       <nav>
         <ul className="flex flex-row gap-4  md:gap-8 lg:gap-10 justify-center items-center font-semibold ">
         <a href='#d1'><li className='hidden sm:block'>Home</li></a>

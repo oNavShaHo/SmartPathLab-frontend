@@ -1,11 +1,11 @@
 import React from 'react'
 import Navbar from '../components/navbar'
 import Footer from '../components/footer'
-import bcg from '../assests/Image (1).svg'
+
 import Image from '../components/Image'
 import Home1 from '../components/Home'
 import Page2 from '../components/Page2'
-import Chosebest from '../components/Chosebest'
+
 import ContactUs from '../components/ContactUs'
 import Team from '../components/Team'
 

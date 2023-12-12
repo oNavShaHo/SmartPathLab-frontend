@@ -1,8 +1,12 @@
+// eslint-disable-next-line
 import React from 'react'
 import '../App.css'
+// eslint-disable-next-line
 import h1 from '../assests/h11.png'
 import { BrowserRouter as Router,  Link } from 'react-router-dom';
 function Home() {
+  let a=Router;
+  console.log(a);
   return (
     <div className=' mt-10 md:mt-[8rem] 
     lg:mt-[10rem] '>

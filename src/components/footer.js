@@ -1,6 +1,6 @@
 import React from 'react'
 import Fotmid from './fotmid'
-import logo from '../assests/logo.svg'
+import logo from '../assests/logo.png'
 import '../App.css'
 import Social from './social'
 function footer() {
