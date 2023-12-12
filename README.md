@@ -1,70 +1,73 @@
-# Getting Started with Create React App
+website is live at - https://65455ad5a9f24b00089f2a0b--amazing-gnome-e598ea.netlify.app/
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+*to use feature press get started*
 
-## Available Scripts
+Hemastats
+Hemastats is a web-based application that allows users to upload and analyze their Blood reports(CBC for now).For now , This application provides insights into your CBC report, helps you understand the potential effects of your blood composition, and offers recommendations for treatment or cure based on the analysis.
 
-In the project directory, you can run:
+Features
+CBC Report Upload: Users can upload their CBC reports values in form for analysis.
 
-### `npm start`
+Report Analysis: The application processes the uploaded report and extracts key information, such as hemoglobin levels, white blood cell count, and platelet count.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+Effects Analysis: The application interprets the CBC report data and provides insights into potential health effects based on the user's blood composition.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Treatment Recommendations: Based on the analysis, the application suggests potential treatments or lifestyle changes to improve the user's health.
 
-### `npm run build`
+Technologies Used
+Frontend:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+React.js
+React Router for navigation
+Tailwind CSS for styling
+Backend: Node JS (hosted on render)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Node.js/Express (for server-side logic)
+Installation
+Clone this repository:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+bash
+Copy code
+git clone https://github.com/oNavShaHo/SmartPathLab-frontend
+cd SmartPathLab-frontend
+Install dependencies:
+npm install
 
-### `npm run eject`
+Start the development server:
+npm start
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Visit http://localhost:3000 in your web browser to access the application.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Usage
+Press get started button
+Upload your CBC report using form.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Wait for the analysis to complete.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Review details 
 
-## Learn More
+Explore the potential effects and recommended treatments based on the analysis.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Take any necessary actions to improve your health.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Contributing
+Contributions to this project are welcome. If you'd like to contribute, please follow these steps:
 
-### Code Splitting
+Fork the repository.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Create a new branch for your feature or bug fix: git checkout -b feature/new-feature.
 
-### Analyzing the Bundle Size
+Make your changes and commit them: git commit -m 'Add new feature'.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Push to your fork and submit a pull request.
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Contact
+If you have any questions or need further assistance, please feel free to reach out to us at [navdeepshahof@gmail.com].
 
-### Advanced Configuration
+Thank you for using SmartPathLab(Hemastats)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+*for now this work for CBC reports ,we are working on other reports as well 
 
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
