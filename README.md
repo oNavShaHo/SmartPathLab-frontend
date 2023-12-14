@@ -1,4 +1,4 @@
-website is live at - https://65455ad5a9f24b00089f2a0b--amazing-gnome-e598ea.netlify.app/
+website is live at - https://amazing-gnome-e598ea.netlify.app/
 
 *to use feature press get started*
 
